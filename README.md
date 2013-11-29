@@ -1,4 +1,4 @@
-stainless
+stain.less
 =========
 
-Less addon for better customize with css classes.
+LESS addon for better customize with css classes.
