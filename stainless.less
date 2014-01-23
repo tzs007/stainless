@@ -1,3 +1,4 @@
+/* dependencies: lesshat-prefixed.less */
 /* Skeleton modifiers */
 .vertical-gap(@t:0, @b:0){ padding-top: @t; padding-bottom: @b; }
 .horizontal-gap(@l:0, @r:0){ padding-left: @l; padding-right: @r; }
@@ -24,8 +25,8 @@
 	&.bottom{ border-bottom: none !important; }
 	&.right{ border-right: none !important; }
 }
-.kill-radius{ .border-radius(0); }
-.kill-shadow{ .box-shadow(~"none"); }
+.kill-radius{ .lh-border-radius(0); }
+.kill-shadow{ .lh-box-shadow(~"none"); }
 .kill-textdeco{ text-decoration: none !important; }
 .child-reset{ margin: 0 !important; border: none !important; }
 .text-wrap{ text-wrap: wrap; white-space: pre-wrap; white-space: -moz-pre-wrap; word-wrap: break-word; }
